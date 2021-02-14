@@ -9,9 +9,16 @@
 
 
 
-# Git备忘录
+# GIT流程
 
-<img src="git工作流程.png" alt="Screenshot (40)" style="zoom:%;" />
+1.  修改文件后，使用：git -add 
+    -   将修改添加到缓存区
+2.  添加到缓存区后，使用：git -commit -m “提交信息”
+    -   将修改与修改信息提交到工作区
+3.  提交到工作区后，使用：git -push
+    -   将修改与修改信息上传到对应仓库
+
+# Git备忘录
 
 1. 创建本地库：
    1. 初始化：git init
